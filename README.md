@@ -1,44 +1,7 @@
 # Parse-Tree-Java
 
-This is simply a java version of the c++ parse tree that I wrote. It performs exactly the same except that it is in java instead of c++
+This is simply a java version of the c++ parse tree that I wrote. Except that after I converted it from c++ to java I edited the java version so that it would operate as a calculator
 
-Using java I made a parse tree that when given an appropriate language it will parse the language checking for any errors and if there are no errors then it will execute the program. If errors exist in the code it will tell on what line the errors exist and why it is incorrect
-
-SEMANTIC RULES FOR THIS LANGUAGE
-
-1.  There are only two types: integer and string
-2.  Variables are assigned a value using set
-3.  An expression can be printed using either print or println
-4.  There is one single scope for variables
-5.  Variable names must be unique
-6.  Adding two integers gets the sum
-7.  Subtracting two integers gets the difference
-8.  Multiplying two integers gets the product
-9.  Dividing two integers gets the quotient
-10. Adding two strings will concatenate the strings
-11. Multiplying an integer and a string results in a string repeated integer times ( 3 * "hi" = "hihihi" )
-12. Dividing two strings results in a string where the first instance of the denominator that is found in the numerator is removed
-
-EXAMPLE PROGRAM
-
-int x;
-
-int y;
-
-string z;
-
-set x 5;
-
-set y 3;
-
-set z "hi";
-
-println x+y;
-
-println z*x;
-
-OUTPUT OF ABOVE PROGRAM
-
-hihihihihi
-
-8
+When the program runs you will be greated with how to use the calculator.
+It can perform addition, subtraction, multiplication, and division.
+To my knowledge you can make the operation as long as you want with a mixture of as many operators as you want.
